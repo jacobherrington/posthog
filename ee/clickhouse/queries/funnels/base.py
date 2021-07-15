@@ -15,7 +15,6 @@ from ee.clickhouse.queries.breakdown_props import (
 from ee.clickhouse.queries.funnels.funnel_event_query import FunnelEventQuery
 from ee.clickhouse.queries.util import parse_timestamps
 from ee.clickhouse.sql.funnels.funnel import FUNNEL_INNER_EVENT_STEPS_QUERY
-from ee.clickhouse.sql.person import GET_LATEST_PERSON_DISTINCT_ID_SQL
 from posthog.constants import FUNNEL_WINDOW_DAYS, TREND_FILTER_TYPE_ACTIONS
 from posthog.models import Action, Entity, Filter, Team
 from posthog.models.filters.mixins.funnel import FunnelWindowDaysMixin
